@@ -106,32 +106,6 @@ h2 {
     box-shadow: 0 10px 30px rgba(0,0,0,0.1);
 }
 
-/* DOGS */
-.dogs {
-    display: flex;
-    gap: 40px;
-    flex-wrap: wrap;
-}
-
-.dog {
-    width: 260px;
-    text-align: center;
-    animation: float 3s ease-in-out infinite;
-}
-
-.dog:nth-child(2) { animation-delay: 1.5s; }
-
-.dog img {
-    width: 100%;
-    border-radius: 15px;
-}
-
-@keyframes float {
-    0% { transform: translateY(0); }
-    50% { transform: translateY(-12px); }
-    100% { transform: translateY(0); }
-}
-
 /* TURNIERKALENDER */
 .calendar {
     background: #fff;
@@ -205,7 +179,7 @@ footer a { color: var(--accent); text-decoration: none; }
     <div class="hero-inner">
         <h1>ÖRV HSV Traiskirchen</h1>
         <p>
-            Hundesportverein im Österreichischen Rassehundeverein –  
+            Hundesportverein im Österreichischen Rassehundeverein –
             aktiver Schwerpunkt Agility-Turniere und sportliche Ausbildung.
         </p>
 
@@ -218,307 +192,312 @@ footer a { color: var(--accent); text-decoration: none; }
 
 <nav>
     <a href="#verein">Verein</a>
-    <a href="#sport">Agility</a>
+    <a href="#fotos">Fotos</a>
     <a href="#turniere">Turniere</a>
     <a href="#kontakt">Kontakt</a>
-    <a href="#fotos">Fotos</a>
 </nav>
 
 <section id="verein">
-<section id="verein">
-<h2>Vereinsprofil</h2>
+    <h2>Vereinsprofil</h2>
 
-<p>
-Der ÖRV HSV Traiskirchen ist ein dem Österreichischen Rassehundeverein (ÖRV)
-angeschlossener Hundesportverein und Mitglied des ASVÖ Niederösterreich.
-Der Verein widmet sich der fachgerechten Ausbildung von Hunden aller Rassen
-sowie der aktiven Ausübung des Hundesports.
-</p>
+    <p>
+        Der ÖRV HSV Traiskirchen ist ein dem Österreichischen Rassehundeverein (ÖRV)
+        angeschlossener Hundesportverein und Mitglied des ASVÖ Niederösterreich.
+        Der Verein widmet sich der fachgerechten Ausbildung von Hunden aller Rassen
+        sowie der aktiven Ausübung des Hundesports.
+    </p>
 
-<h3 style="margin-top:40px;">Vorstand</h3>
+    <h3 style="margin-top:40px;">Vorstand</h3>
 
-<div style="margin-top:20px;">
-    <details style="background:#fff; border-radius:12px; box-shadow:0 10px 30px rgba(0,0,0,.1); padding:18px 22px;">
-        <summary style="cursor:pointer; font-weight:700; font-size:1.05rem; color:var(--green);">
-            Vorstand anzeigen
-        </summary>
+    <div style="margin-top:20px;">
+        <details style="background:#fff; border-radius:12px; box-shadow:0 10px 30px rgba(0,0,0,.1); padding:18px 22px;">
+            <summary style="cursor:pointer; font-weight:700; font-size:1.05rem; color:var(--green);">
+                Vorstand anzeigen
+            </summary>
 
-        <div style="margin-top:18px; line-height:1.9;">
-            <p><strong>Obfrau:</strong> Sarolta Hauer</p>
-            <p><strong>Obfrau-Stellvertreterin:</strong> Susanna Bytyci</p>
-            <p><strong>Kassierin:</strong> Karolina Schletz</p>
-            <p><strong>Schriftführerin:</strong> Susanna Bytyci</p>
+            <div style="margin-top:18px; line-height:1.9;">
+                <p><strong>Obfrau:</strong> Sarolta Hauer</p>
+                <p><strong>Obfrau-Stellvertreterin:</strong> Susanna Bytyci</p>
+                <p><strong>Kassierin:</strong> Karolina Schletz</p>
+                <p><strong>Schriftführerin:</strong> Susanna Bytyci</p>
+            </div>
+        </details>
+    </div>
+</section>
+
+<section id="fotos">
+    <h2>Turnierfotos & Siegerbilder</h2>
+
+    <div class="cards">
+        <div class="card">
+            <h3>Foto-Cloud</h3>
+            <p>
+                Die Fotos unserer Turniere sowie Siegerbilder stehen in unserer Fotogalerie zur Verfügung.
+            </p>
+
+            <p>
+                <a href="https://drive.google.com/drive/folders/1Qx1EewMYqPaVO4aqXoryxT5eepnGoZ4z?usp=drive_link" target="_blank" style="font-weight:600; color:var(--green);">
+                    👉 Zum Foto-Download
+                </a>
+            </p>
+
+            <p style="font-size:0.9em; color:#555;">
+                Download und private Nutzung der Bilder ist erlaubt.
+                Eine gewerbliche Nutzung ist nur mit Zustimmung des Vereins gestattet.
+            </p>
         </div>
-    </details>
-</div>
+    </div>
 </section>
 
 <section id="turniere">
-<h2>Agility Turnierkalender 2026</h2>
+    <h2>Agility Turnierkalender 2026</h2>
 
-<div class="calendar">
-<table>
-<thead>
-<tr>
-<th>Datum</th>
-<th>Turnier</th>
-<th>Ort</th>
-<th>Meldung</th>
-<th>Richter</th>
-<th>Fotos</th>
-</tr>
-</thead>
-<tbody>
+    <div class="calendar">
+        <table>
+            <thead>
+                <tr>
+                    <th>Datum</th>
+                    <th>Turnier</th>
+                    <th>Ort</th>
+                    <th>Meldung</th>
+                    <th>Richter</th>
+                    <th>Fotos</th>
+                </tr>
+            </thead>
+            <tbody>
 
-<tr data-eventdate="2026-01-18">
-<td class="date">18.01.2026</td>
-<td class="event">
-Glücksbärchi Nº1 2026
-<span class="deadline" data-deadline="2026-01-11T20:00"></span>
-<span class="event-status"></span>
-</td>
-<td class="location">AVE-DOG Arena, Wiener Neudorf</td>
-<td>15.12.2025 20:00 – 11.01.2026 20:00</td>
-<td class="judge">Fried Katharina</td>
-<td></td>
-</tr>
+                <tr data-eventdate="2026-01-18">
+                    <td class="date">18.01.2026</td>
+                    <td class="event">
+                        Glücksbärchi Nº1 2026
+                        <span class="deadline" data-deadline="2026-01-11T20:00"></span>
+                        <span class="event-status"></span>
+                    </td>
+                    <td class="location">AVE-DOG Arena, Wiener Neudorf</td>
+                    <td>15.12.2025 20:00 – 11.01.2026 20:00</td>
+                    <td class="judge">Fried Katharina</td>
+                    <td></td>
+                </tr>
 
-<tr data-eventdate="2026-02-08">
-<td class="date">08.02.2026</td>
-<td class="event">
-Glücksbärchi Nº2 2026
-<span class="deadline" data-deadline="2026-02-01T20:00"></span>
-<span class="event-status"></span>
-</td>
-<td class="location">AVE-DOG Arena, Wiener Neudorf</td>
-<td>15.12.2025 20:00 – 01.02.2026 20:00</td>
-<td class="judge">Ganzi Karl Heinz</td>
-<td></td>
-</tr>
+                <tr data-eventdate="2026-02-08">
+                    <td class="date">08.02.2026</td>
+                    <td class="event">
+                        Glücksbärchi Nº2 2026
+                        <span class="deadline" data-deadline="2026-02-01T20:00"></span>
+                        <span class="event-status"></span>
+                    </td>
+                    <td class="location">AVE-DOG Arena, Wiener Neudorf</td>
+                    <td>15.12.2025 20:00 – 01.02.2026 20:00</td>
+                    <td class="judge">Ganzi Karl Heinz</td>
+                    <td></td>
+                </tr>
 
-<tr data-eventdate="2026-03-08">
-<td class="date">08.03.2026</td>
-<td class="event">
-Glücksbärchi Nº3 2026
-<span class="deadline" data-deadline="2026-03-01T20:00"></span>
-<span class="event-status"></span>
-</td>
-<td class="location">AVE-DOG Arena, Wiener Neudorf</td>
-<td>15.12.2025 20:00 – 01.03.2026 20:00</td>
-<td class="judge">Horvath Rudolf</td>
-<td></td>
-</tr>
+                <tr data-eventdate="2026-03-08">
+                    <td class="date">08.03.2026</td>
+                    <td class="event">
+                        Glücksbärchi Nº3 2026
+                        <span class="deadline" data-deadline="2026-03-01T20:00"></span>
+                        <span class="event-status"></span>
+                    </td>
+                    <td class="location">AVE-DOG Arena, Wiener Neudorf</td>
+                    <td>15.12.2025 20:00 – 01.03.2026 20:00</td>
+                    <td class="judge">Horvath Rudolf</td>
+                    <td></td>
+                </tr>
 
-<tr data-eventdate="2026-04-12">
-<td class="date">12.04.2026</td>
-<td class="event">
-Glücksbärchi Nº4 2026
-<span class="deadline" data-deadline="2026-04-05T20:00"></span>
-<span class="event-status"></span>
-</td>
-<td class="location">Traiskirchen, Hochmühlstraße 34</td>
-<td>15.12.2025 20:00 – 05.04.2026 20:00</td>
-<td class="judge">Hauser Fritz</td>
-<td><a href="https://drive.google.com/drive/folders/1AD7XeW13eDCR8dgQvs6kDvtGkZz8vSK9?usp=drive_link" target="_blank">Fotos</a></td>
-</tr>
+                <tr data-eventdate="2026-04-12">
+                    <td class="date">12.04.2026</td>
+                    <td class="event">
+                        Glücksbärchi Nº4 2026
+                        <span class="deadline" data-deadline="2026-04-05T20:00"></span>
+                        <span class="event-status"></span>
+                    </td>
+                    <td class="location">Traiskirchen, Hochmühlstraße 34</td>
+                    <td>15.12.2025 20:00 – 05.04.2026 20:00</td>
+                    <td class="judge">Hauser Fritz</td>
+                    <td><a href="https://drive.google.com/drive/folders/1AD7XeW13eDCR8dgQvs6kDvtGkZz8vSK9?usp=drive_link" target="_blank">Fotos</a></td>
+                </tr>
 
-<tr data-eventdate="2026-04-19">
-<td class="date">19.04.2026</td>
-<td class="event">
-Glücksbärchi Nº5 2026
-<span class="deadline" data-deadline="2026-04-12T20:00"></span>
-<span class="event-status"></span>
-</td>
-<td class="location">Traiskirchen, Hochmühlstraße 34</td>
-<td>15.12.2025 20:00 – 12.04.2026 20:00</td>
-<td class="judge">Ganzi Karl Heinz</td>
-<td><a href="https://drive.google.com/drive/folders/1sxDmuEV9jsb8uTQkGQNhxTZAFfu0XQpt?usp=drive_link" target="_blank">Fotos</a></td>
-</tr>
+                <tr data-eventdate="2026-04-19">
+                    <td class="date">19.04.2026</td>
+                    <td class="event">
+                        Glücksbärchi Nº5 2026
+                        <span class="deadline" data-deadline="2026-04-12T20:00"></span>
+                        <span class="event-status"></span>
+                    </td>
+                    <td class="location">Traiskirchen, Hochmühlstraße 34</td>
+                    <td>15.12.2025 20:00 – 12.04.2026 20:00</td>
+                    <td class="judge">Ganzi Karl Heinz</td>
+                    <td><a href="https://drive.google.com/drive/folders/1sxDmuEV9jsb8uTQkGQNhxTZAFfu0XQpt?usp=drive_link" target="_blank">Fotos</a></td>
+                </tr>
 
-<tr data-eventdate="2026-05-10">
-<td class="date">10.05.2026</td>
-<td class="event">
-Glücksbärchi Nº6 2026
-<span class="deadline" data-deadline="2026-05-03T20:00"></span>
-<span class="event-status"></span>
-</td>
-<td class="location">Traiskirchen, Hochmühlstraße 34</td>
-<td>15.12.2025 20:00 – 03.05.2026 20:00</td>
-<td class="judge">Hauser Sabrina</td>
-<td><a href="https://drive.google.com/drive/folders/1Hek-4WDKdgNWk8EzGmqgQM_4rYLpcz8a?usp=drive_link" target="_blank">Fotos</a></td>
-</tr>
+                <tr data-eventdate="2026-05-10">
+                    <td class="date">10.05.2026</td>
+                    <td class="event">
+                        Glücksbärchi Nº6 2026
+                        <span class="deadline" data-deadline="2026-05-03T20:00"></span>
+                        <span class="event-status"></span>
+                    </td>
+                    <td class="location">Traiskirchen, Hochmühlstraße 34</td>
+                    <td>15.12.2025 20:00 – 03.05.2026 20:00</td>
+                    <td class="judge">Hauser Sabrina</td>
+                    <td><a href="https://drive.google.com/drive/folders/1Hek-4WDKdgNWk8EzGmqgQM_4rYLpcz8a?usp=drive_link" target="_blank">Fotos</a></td>
+                </tr>
 
-<tr data-eventdate="2026-06-04">
-<td class="date">04.06.2026</td>
-<td class="event">
-Der bunte Bär
-<span class="deadline" data-deadline="2026-05-17T20:00"></span>
-<span class="event-status"></span>
-</td>
-<td class="location">Traiskirchen, Hochmühlstraße 34</td>
-<td>15.12.2025 20:00 – 17.05.2026 20:00</td>
-<td class="judge">Horvath Rudolf, Wöss Christian</td>
-<td><a href="https://drive.google.com/drive/folders/1TJ5Sulp-UN7XYs8bRY8nEDlPkqdI6sU7" target="_blank">Fotos</a></td>
-</tr>
+                <tr data-eventdate="2026-06-04">
+                    <td class="date">04.06.2026</td>
+                    <td class="event">
+                        Der bunte Bär
+                        <span class="deadline" data-deadline="2026-05-17T20:00"></span>
+                        <span class="event-status"></span>
+                    </td>
+                    <td class="location">Traiskirchen, Hochmühlstraße 34</td>
+                    <td>15.12.2025 20:00 – 17.05.2026 20:00</td>
+                    <td class="judge">Horvath Rudolf, Wöss Christian</td>
+                    <td><a href="https://drive.google.com/drive/folders/1TJ5Sulp-UN7XYs8bRY8nEDlPkqdI6sU7" target="_blank">Fotos</a></td>
+                </tr>
 
-<tr data-eventdate="2026-06-21">
-<td class="date">21.06.2026</td>
-<td class="event">
-Glücksbärchi Nº7 2026
-<span class="deadline" data-deadline="2026-06-14T20:00"></span>
-<span class="event-status"></span>
-</td>
-<td class="location">Traiskirchen, Hochmühlstraße 34</td>
-<td>15.12.2025 20:00 – 14.06.2026 20:00</td>
-<td class="judge">Pöllmann Thomas</td>
-<td><a href="https://drive.google.com/drive/folders/1VpjRclLs5rf26sJaPkkOhrK122T529Wc?usp=drive_link" target="_blank">Fotos</a></td>
-</tr>
+                <tr data-eventdate="2026-06-21">
+                    <td class="date">21.06.2026</td>
+                    <td class="event">
+                        Glücksbärchi Nº7 2026
+                        <span class="deadline" data-deadline="2026-06-14T20:00"></span>
+                        <span class="event-status"></span>
+                    </td>
+                    <td class="location">Traiskirchen, Hochmühlstraße 34</td>
+                    <td>15.12.2025 20:00 – 14.06.2026 20:00</td>
+                    <td class="judge">Pöllmann Thomas</td>
+                    <td><a href="https://drive.google.com/drive/folders/1VpjRclLs5rf26sJaPkkOhrK122T529Wc?usp=drive_link" target="_blank">Fotos</a></td>
+                </tr>
 
-<tr data-eventdate="2026-09-20">
-<td class="date">20.09.2026</td>
-<td class="event">
-Glücksbärchi Nº8 2026
-<span class="deadline" data-deadline="2026-09-13T20:00"></span>
-<span class="event-status"></span>
-</td>
-<td class="location">Traiskirchen, Hochmühlstraße 34</td>
-<td>15.12.2025 20:00 – 13.09.2026 20:00</td>
-<td class="judge">Mladek Sonja</td>
-<td><a href="https://drive.google.com/drive/folders/1FBxGGCm0xC7jfPiU0Kou4uPy1CURhi8c?usp=drive_link" target="_blank">Fotos</a></td>
-</tr>
+                <tr data-eventdate="2026-09-20">
+                    <td class="date">20.09.2026</td>
+                    <td class="event">
+                        Glücksbärchi Nº8 2026
+                        <span class="deadline" data-deadline="2026-09-13T20:00"></span>
+                        <span class="event-status"></span>
+                    </td>
+                    <td class="location">Traiskirchen, Hochmühlstraße 34</td>
+                    <td>15.12.2025 20:00 – 13.09.2026 20:00</td>
+                    <td class="judge">Mladek Sonja</td>
+                    <td><a href="https://drive.google.com/drive/folders/1FBxGGCm0xC7jfPiU0Kou4uPy1CURhi8c?usp=drive_link" target="_blank">Fotos</a></td>
+                </tr>
 
-<tr data-eventdate="2026-09-27">
-<td class="date">27.09.2026</td>
-<td class="event">
-Glücksbärchi Nº9 2026
-<span class="deadline" data-deadline="2026-09-20T20:00"></span>
-<span class="event-status"></span>
-</td>
-<td class="location">Traiskirchen, Hochmühlstraße 34</td>
-<td>15.12.2025 20:00 – 20.09.2026 20:00</td>
-<td class="judge">Pöllmann Thomas</td>
-<td><a href="https://drive.google.com/drive/folders/1-FwyTWPs9yCPBf72viUI7R9VDBXIj5iU?usp=drive_link" target="_blank">Fotos</a></td>
-</tr>
+                <tr data-eventdate="2026-09-27">
+                    <td class="date">27.09.2026</td>
+                    <td class="event">
+                        Glücksbärchi Nº9 2026
+                        <span class="deadline" data-deadline="2026-09-20T20:00"></span>
+                        <span class="event-status"></span>
+                    </td>
+                    <td class="location">Traiskirchen, Hochmühlstraße 34</td>
+                    <td>15.12.2025 20:00 – 20.09.2026 20:00</td>
+                    <td class="judge">Pöllmann Thomas</td>
+                    <td><a href="https://drive.google.com/drive/folders/1-FwyTWPs9yCPBf72viUI7R9VDBXIj5iU?usp=drive_link" target="_blank">Fotos</a></td>
+                </tr>
 
-<tr data-eventdate="2026-10-25">
-<td class="date">25.10.2026</td>
-<td class="event">
-Glücksbärchi Nº10 2026
-<span class="deadline" data-deadline="2026-10-18T20:00"></span>
-<span class="event-status"></span>
-</td>
-<td class="location">AVE-DOG Arena, Wiener Neudorf</td>
-<td>15.12.2025 20:00 – 18.10.2026 20:00</td>
-<td class="judge">Horvath Rudolf</td>
-<td><a href="https://drive.google.com/drive/folders/1s0lv6uJ_eugW2Yv2CvKCQJZ90SZkvUPJ?usp=drive_link" target="_blank">Fotos</a></td>
-</tr>
+                <tr data-eventdate="2026-10-25">
+                    <td class="date">25.10.2026</td>
+                    <td class="event">
+                        Glücksbärchi Nº10 2026
+                        <span class="deadline" data-deadline="2026-10-18T20:00"></span>
+                        <span class="event-status"></span>
+                    </td>
+                    <td class="location">AVE-DOG Arena, Wiener Neudorf</td>
+                    <td>15.12.2025 20:00 – 18.10.2026 20:00</td>
+                    <td class="judge">Horvath Rudolf</td>
+                    <td><a href="https://drive.google.com/drive/folders/1s0lv6uJ_eugW2Yv2CvKCQJZ90SZkvUPJ?usp=drive_link" target="_blank">Fotos</a></td>
+                </tr>
 
-<tr data-eventdate="2026-11-22">
-<td class="date">22.11.2026</td>
-<td class="event">
-Glücksbärchi Nº11 2026
-<span class="deadline" data-deadline="2026-11-15T20:00"></span>
-<span class="event-status"></span>
-</td>
-<td class="location">AVE-DOG Arena, Wiener Neudorf</td>
-<td>15.12.2025 20:00 – 15.11.2026 20:00</td>
-<td class="judge">Fried Katharina</td>
-<td><a href="https://drive.google.com/drive/folders/1uzgmiwcJL4xPqXry09MBa3wVADUMd2mm?usp=drive_link" target="_blank">Fotos</a></td>
-</tr>
+                <tr data-eventdate="2026-11-22">
+                    <td class="date">22.11.2026</td>
+                    <td class="event">
+                        Glücksbärchi Nº11 2026
+                        <span class="deadline" data-deadline="2026-11-15T20:00"></span>
+                        <span class="event-status"></span>
+                    </td>
+                    <td class="location">AVE-DOG Arena, Wiener Neudorf</td>
+                    <td>15.12.2025 20:00 – 15.11.2026 20:00</td>
+                    <td class="judge">Fried Katharina</td>
+                    <td><a href="https://drive.google.com/drive/folders/1uzgmiwcJL4xPqXry09MBa3wVADUMd2mm?usp=drive_link" target="_blank">Fotos</a></td>
+                </tr>
 
-<tr data-eventdate="2026-12-13">
-<td class="date">13.12.2026</td>
-<td class="event">
-Glücksbärchi Nº12 2026
-<span class="deadline" data-deadline="2026-12-06T20:00"></span>
-<span class="event-status"></span>
-</td>
-<td class="location">AVE-DOG Arena, Wiener Neudorf</td>
-<td>15.12.2025 20:00 – 06.12.2026 20:00</td>
-<td class="judge">Horvath Rudolf</td>
-<td><a href="https://drive.google.com/drive/folders/1tZq4RPCxpkiL5dgBTW3y4dVDdPESvU1C?usp=drive_link" target="_blank">Fotos</a></td>
-</tr>
+                <tr data-eventdate="2026-12-13">
+                    <td class="date">13.12.2026</td>
+                    <td class="event">
+                        Glücksbärchi Nº12 2026
+                        <span class="deadline" data-deadline="2026-12-06T20:00"></span>
+                        <span class="event-status"></span>
+                    </td>
+                    <td class="location">AVE-DOG Arena, Wiener Neudorf</td>
+                    <td>15.12.2025 20:00 – 06.12.2026 20:00</td>
+                    <td class="judge">Horvath Rudolf</td>
+                    <td><a href="https://drive.google.com/drive/folders/1tZq4RPCxpkiL5dgBTW3y4dVDdPESvU1C?usp=drive_link" target="_blank">Fotos</a></td>
+                </tr>
 
-</tbody>
-</table>
-</div>
-</section>
-    
-<section id="fotos">
-<h2>Turnierfotos & Siegerbilder</h2>
-
-<div class="cards">
-
-<div class="card">
-<h3>Foto-Cloud</h3>
-<p>
-Die Fotos unserer Turniere sowie Siegerbilder stehen in unserer Fotogalerie zur Verfügung.
-</p>
-
-<p>
-<a href="https://drive.google.com/drive/folders/1Qx1EewMYqPaVO4aqXoryxT5eepnGoZ4z?usp=drive_link" target="_blank" style="font-weight:600; color:var(--green);">
-👉 Zum Foto-Download
-</a>
-</p>
-
-<p style="font-size:0.9em; color:#555;">
-Download und private Nutzung der Bilder ist erlaubt.  
-Eine gewerbliche Nutzung ist nur mit Zustimmung des Vereins gestattet.
-</p>
-
-</div>
-
-</div>
-</section>
-</tbody>
-</table>
-</div>
+            </tbody>
+        </table>
+    </div>
 </section>
 
 <section id="kontakt">
-<h2>Kontakt</h2>
-<p>
-<strong>ÖRV HSV Traiskirchen</strong><br>
-Traiskirchen, Walther v.d. Vogelweidestraße 85, Niederösterreich<br>
-E-Mail:
-<a href="mailto:oerv.traiskirchen@icloud.com">
-oerv.traiskirchen@icloud.com
-</a>
-</p>
+    <h2>Kontakt</h2>
+    <p>
+        <strong>ÖRV HSV Traiskirchen</strong><br>
+        Traiskirchen, Walther v.d. Vogelweidestraße 85, Niederösterreich<br>
+        E-Mail:
+        <a href="mailto:oerv.traiskirchen@icloud.com">
+            oerv.traiskirchen@icloud.com
+        </a>
+    </p>
 </section>
 
 <footer>
-<h3>Impressum</h3>
-<p>
-ÖRV HSV Traiskirchen<br>
-Hundesportverein im Österreichischen Rassehundeverein (ÖRV)<br>
-Sitz: Traiskirchen, Walther v.d. Vogelweidestraße 85, Niederösterreich<br>
-E-Mail:
-<a href="mailto:oerv.traiskirchen@icloud.com">
-oerv.traiskirchen@icloud.com
-</a>
-</p>
+    <h3>Impressum</h3>
+    <p>
+        ÖRV HSV Traiskirchen<br>
+        Hundesportverein im Österreichischen Rassehundeverein (ÖRV)<br>
+        Sitz: Traiskirchen, Walther v.d. Vogelweidestraße 85, Niederösterreich<br>
+        E-Mail:
+        <a href="mailto:oerv.traiskirchen@icloud.com">
+            oerv.traiskirchen@icloud.com
+        </a>
+    </p>
 
-<h3>Datenschutz</h3>
-<p>
-Personenbezogene Daten werden ausschließlich im Rahmen der gesetzlichen
-Bestimmungen (DSGVO, TKG 2003) verarbeitet.  
-Diese Website verwendet keine Cookies zu Analyse- oder Marketingzwecken.
-</p>
+    <h3>Datenschutz</h3>
+    <p>
+        Personenbezogene Daten werden ausschließlich im Rahmen der gesetzlichen
+        Bestimmungen (DSGVO, TKG 2003) verarbeitet.
+        Diese Website verwendet keine Cookies zu Analyse- oder Marketingzwecken.
+    </p>
 
-<p>
-© 2025 ÖRV HSV Traiskirchen – Mitglied im ASVÖ Niederösterreich
-</p>
+    <p>
+        © 2025 ÖRV HSV Traiskirchen – Mitglied im ASVÖ Niederösterreich
+    </p>
 </footer>
 
 <script>
-document.querySelectorAll(".deadline").forEach(el => {
-    const deadline = new Date(el.dataset.deadline);
+document.addEventListener("DOMContentLoaded", function () {
     const now = new Date();
-    const diffHours = (deadline - now) / (1000 * 60 * 60);
-    if (diffHours > 0 && diffHours <= 48) {
-        el.innerHTML = '<span class="badge">Nennschluss läuft</span>';
-    }
+
+    document.querySelectorAll("tr[data-eventdate]").forEach(row => {
+        const eventDate = new Date(row.dataset.eventdate + "T23:59:59");
+
+        const deadlineEl = row.querySelector(".deadline");
+        if (deadlineEl) {
+            const deadline = new Date(deadlineEl.dataset.deadline);
+            const diffHours = (deadline - now) / (1000 * 60 * 60);
+
+            if (diffHours > 0 && diffHours <= 48) {
+                deadlineEl.innerHTML = '<span class="badge">Nennschluss läuft</span>';
+            }
+        }
+
+        const statusEl = row.querySelector(".event-status");
+        if (statusEl && now > eventDate) {
+            statusEl.innerHTML = ' <span style="color:#888; font-weight:500;">(Turnier beendet)</span>';
+        }
+    });
 });
 </script>
 
